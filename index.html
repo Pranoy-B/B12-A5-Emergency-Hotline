@@ -93,14 +93,25 @@
             </div>
 
            <!-- recent call logs -->
-            <div class="row-span-3 order-last lg:order-none rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div  class="row-span-3 order-last lg:order-none rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
                 <div>
                     <div class="flex justify-between items-center">
                         <p class="font-bold"><i class="fa-regular fa-clock"></i> Call History</p>
-                        <button type="button" class="rounded-xl px-5 py-1 border-2 border-gray-200 bg-[#00A63E] text-white font-bold    ">Clear</button>
+                        <button id="clear-btn" type="button" class="rounded-xl px-5 py-1 border-2 border-gray-200 bg-[#00A63E] text-white font-bold    ">Clear</button>
+                    </div>
+                    <div id="call-history-parent">
+                        <!-- <div class="bg-[#41ff6b1a] flex justify-between items-center mt-4 p-1"> 
+                            <div>
+                                <h2 class="font-semibold">Fire Service Number</h2>
+                                <p>999</p>
+                            </div>
+                            <div>11:36:58 AM</div>
+                        </div> -->
                     </div>
                 </div> 
             </div>
+
+
             <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/ambulance.png" alt="">
