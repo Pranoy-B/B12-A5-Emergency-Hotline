@@ -25,11 +25,11 @@
 
             <div class="flex flex-col lg:flex-row justify-between items-center gap-2">
                 <div class="w-[125px] h-[52px] bg-[#41ff6b1a] rounded-[50px] flex justify-center items-center gap-4">
-                    <span class="font-bold text-xl">0</span>
+                    <p id="total-heart" class="font-bold text-xl">0</p>
                     <img class="h-[30px] w-[30px]" src="./assets/heart.png" alt="">
                 </div>
                 <div class="w-[125px] h-[52px] bg-[#41ff6b1a] rounded-[50px] flex justify-center items-center gap-4">
-                    <span class="font-bold text-xl">100</span>
+                    <p id="coins" class="font-bold text-xl">100</p>
                     <img class="h-[24px] w-[24px]" src="./assets/coin.png" alt="">
                 </div>
                 <div class="w-[125px] h-[52px] text-[#ffffff] rounded-[50px] bg-[#00A63E] flex justify-center items-center">
@@ -49,46 +49,46 @@
        <!-- hotline card section  -->
     <section class="max-w-full mx-auto my-10 px-4 sm:px-6 lg:px-10">
        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">National Emergency Number</h2>
+                <h2 class="mt-2 font-extrabold service-name">National Emergency Number</h2>
                 <p class="text-[#a3a8a3]">National Emergency</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">999</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">999</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">All</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i> Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/police.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Police Helpline Number</h2>
+                <h2 class="mt-2 font-extrabold service-name">Police Helpline Number</h2>
                 <p class="text-[#a3a8a3]">Police</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">999</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">999</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Police</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
-                    <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/fire-service.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                      <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/fire-service.png" alt="">
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Fire Service Number</h2>
+                <h2 class="mt-2 font-extrabold service-name">Fire Service Number</h2>
                 <p class="text-[#a3a8a3]">Fire Service</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">999</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">999</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Fire</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
 
@@ -101,88 +101,88 @@
                     </div>
                 </div> 
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/ambulance.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
                 <h2 class="mt-2 font-extrabold">Ambulance Service</h2>
-                <p class="text-[#a3a8a3]">Ambulance</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">1994-999999</p>
+                <p class="text-[#a3a8a3] service-name">Ambulance</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">1994-999999</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Health</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b        border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b        border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Women & Child Helpline</h2>
+                <h2 class="mt-2 font-extrabold service-name">Women & Child Helpline</h2>
                 <p class="text-[#a3a8a3]">Women & Child Helpline</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">109</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">109</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Help</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Anti-Corruption Helpline</h2>
+                <h2 class="mt-2 font-extrabold service-name">Anti-Corruption Helpline</h2>
                 <p class="text-[#a3a8a3]">Anti-Corruption</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">106</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">106</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Govt</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/emergency.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Electricity Helpline</h2>
+                <h2 class="mt-2 font-extrabold service-name">Electricity Helpline</h2>
                 <p class="text-[#a3a8a3]">Electricity Outage</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">16216</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">16216</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Electricity</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white call-btn"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/brac.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Brac Helpline</h2>
+                <h2 class="mt-2 font-extrabold service-name">Brac Helpline</h2>
                 <p class="text-[#a3a8a3]">Brac</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">16445</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">16445</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">NGO</span></p>
                 <div class="flex justify-between items-center">
-                    <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                    <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
-            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300">
+            <div class="rounded-lg bg-white w-full p-[32px] shadow-[0_4px_6px_-2px_rgba(0,0,0,0.3)] border-b  border-gray-300 card">
                 <div class="flex justify-between items-center">
                     <img class="h-[60px] w-[60px] bg-[#ffe3e2] p-3 rounded-xl" src="./assets/Bangladesh-Railway.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
+                    <img class="h-[40px] w-[40px] heart" src="./assets/heart.png" alt="">
                 </div>
-                <h2 class="mt-2 font-extrabold">Bangladesh Railway helpline</h2>
+                <h2 class="mt-2 font-extrabold service-name">Bangladesh Railway helpline</h2>
                 <p class="text-[#a3a8a3]">Bangladesh Railway</p>
-                <p class="mt-5 mb-2 font-extrabold text-xl">163</p>
+                <p class="mt-5 mb-2 font-extrabold text-xl service-number">163</p>
                 <p class="mb-4"><span class="font-extralight pr-3 pl-3 pt-1 pb-1 rounded-xl bg-[#a3a8a3]">Travel</span></p>
                 <div class="flex justify-between items-center">
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button type="button" class="rounded-xl pt-1 pb-1 pr-10 pl-10 border-2 border-gray-200 bg-[#00A63E] text-white"><i class="fa-solid fa-phone text-white"></i>Call</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-7 pl-7 border-2 border-gray-200"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button type="button" class="rounded-xl pt-1 pb-1 pr-8 pl-8 border-2 border-gray-200 bg-[#00A63E] text-white call-btn"><i class="fa-solid fa-phone text-white"></i>Call</button>
                 </div>
             </div>
     </section>
