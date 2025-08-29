@@ -2,7 +2,7 @@
 
 const callHistory = []
 
-// heart toggle
+// total heart section
 
 const hearts = document.querySelectorAll(".heart")
 for (let i = 0; i<hearts.length; i++){
@@ -81,3 +81,34 @@ document.getElementById("clear-btn").addEventListener("click", function(){
     callHistoryClear.innerHTML = ''
     callHistoryClear.length = 0
 })
+
+
+// copy section
+
+const copyBtns = document.querySelectorAll(".copy-btn")
+for(let i=0; i<callBtns.length; i++){
+    copyBtns[i].addEventListener("click",function(){
+        const card = this.closest(".card");
+        const serviceNumber = card.querySelector(".service-number").innerText;
+
+        navigator.clipboard.writeText(serviceNumber)
+          .then(() => {
+            alert("Copied: " + serviceNumber);
+          })
+          .catch(err => {
+            alert("Failed to copy: " + err)
+          })
+        
+    })
+}
+
+const copy = document.querySelectorAll(".copy-btn")
+for (let i = 0; i<hearts.length; i++){
+    copy[i].addEventListener("click", function(){
+      const totalCopy = parseInt(document.getElementById("total-copy").innerText)
+    let currentCopy = totalCopy
+    const copyClick = 1
+    let newTotalCopy = copyClick + currentCopy
+    document.getElementById("total-copy").innerText = newTotalCopy
+    })
+}
